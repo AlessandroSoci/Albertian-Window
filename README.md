@@ -7,7 +7,7 @@ To simulate a real window on the screen
 - download landmarks predictor from [TensorFace](https://github.com/AKSHAYUBHAT/TensorFace/blob/master/openface/models/dlib/shape_predictor_68_face_landmarks.dat)
 - add it on the main folder
 - calibrate the camera:
-  - run `take_picture_chess.py` and use a 10x7 chess in various position (at least 20 photo)
+  - run `take_picture_chess.py` and use a 10x7 chess in various position (at least 20 photos)
   - run `calibration.py`
 - run `main.py`
 
