@@ -1,6 +1,6 @@
 # Albertian Window
 
-To simulate a real window on the screen
+Simulation of a real window
 
 ## Run
 - download the [repository](https://github.com/AlessandroSoci/Albertian-Window.git) (clone or zip download)
@@ -12,20 +12,19 @@ To simulate a real window on the screen
 - run `main.py`
 
 ## Introduction
-The concept of Albertian window born in fifth century, it consists to simulate real scene on a wall, on a painting or on a screen so as to deceive the people. Albertian window is a 2D image that recreates a 3D scene exactly among the point of view of the observer.
-In past the problem was that you could paint scene among only one point of view.
-Using a camera (calibrated camera) and given a 3D scene, it's possible generate an interactive Albertian window, with many points of view.
+The concept of the Albertian window born in the fifth century, as a new method to paint real scene. The Albertian window is a 2D image that recreates a 3D scene exactly from the observer's point of view.
+In the past, the problem was that you could paint a scene from only one point of view, because of the static of the painting. Nowadays, using a camera (calibrated camera) and given a 3D scene, it's possible to generate an interactive Albertian window with many points of view.
 
 ## Goals
 1. Find face landmarks of the observer
-2. Compute the rotation, traslation and distance of the observer respect the screen
+2. Compute the rotation, translation, and distance of the observer respect the screen
 3. Move the point of view of 3D scene respect the observer
 
 ## Technologies
-- OpenCV allow to have control on camera
-- Camera interface is developed with PyQt Framework
-- The face landmark are calculated thanks to Dlib packages
-- OpenGl to create 3D scene
+- OpenCV allows having control of the camera
+- The camera interface is developed with PyQt Framework
+- The face landmarks are calculated thanks to Dlib packages
+- OpenGL to create a 3D scene
 - Pygame to render and control the 3D scene
 
 ## Description
